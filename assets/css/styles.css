@@ -1,16 +1,8 @@
-/*   
- * Template Name: Developer - Responsive Website Template for Developers
- * Version: 1.5
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
-*/
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
-  color: #434343;
-  background: #DAE3E7;
+  font-family: 'Lato', arial, sans-serif;;
+  color: #dbd2d2;
+  background: #0b1c2e;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -101,24 +93,11 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
-/*
-iframe {
-
-    .header {
-        padding: 0;
-    }
-}
-
-.iframe-wrapper {
-    overflow: auto;
-    -webkit-overflow-scrolling:touch;
-}
-*/
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #151516cf;
+  
 }
 .header .btn {
   margin-top: 60px;
@@ -126,6 +105,8 @@ iframe {
 }
 .header .profile-image {
   margin-right: 30px;
+  box-shadow: 0px 0px 10px #888; 
+  border-radius: 100px;
 }
 .header .profile-content .name {
   color: #49515a;
@@ -166,14 +147,14 @@ iframe {
 }
 /* ======= Sections======= */
 .sections-wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .section .section-inner {
-  background: #fff;
+  background: #151516cf;
   padding: 30px;
 }
 .section .heading {
@@ -541,5 +522,11 @@ iframe {
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .level-label{
+    display: none;
   }
 }
