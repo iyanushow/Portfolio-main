@@ -72,6 +72,9 @@ a.btn-cta-secondary,
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+
+  justify-content: center;
+  gap: 10px;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
@@ -153,9 +156,9 @@ a.dotted-link:hover {
   padding-top: 8px;
 }
 p.intro__text {
-  text-align: center;
+  text-align: justify;
   line-height: 2;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .about.section > .section-inner-clean {
@@ -247,6 +250,7 @@ span.stack-type:hover {
 @media (min-width: 520px) {
   p.intro__text {
     text-align: justify;
+    font-size: 1.8rem;
   }
   .section .heading {
     text-align: inherit;
@@ -639,5 +643,11 @@ span.stack-type:hover {
 @media (max-width: 1400px) {
   .level-label {
     display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .section-inner-clean {
+    padding: 20px 0;
   }
 }
