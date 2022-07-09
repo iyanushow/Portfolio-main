@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   color: #dbd2d2;
   background: #0b1c2e;
   font-size: 16px;
@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #778492;
 }
@@ -38,7 +38,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: "Montserrat", arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -123,7 +123,7 @@ a.dotted-link:hover {
 }
 .header .profile-content .desc {
   color: #778492;
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
@@ -158,12 +158,64 @@ p.intro__text {
   font-size: 1.8rem;
 }
 
+.about.section > .section-inner-clean {
+  padding-bottom: 20px;
+}
+.latest.section > .section-inner-clean {
+  padding-top: 0;
+}
+
 p.stack {
-  color: #778492;
+  color: #545e69;
+
   margin: 20px auto;
   padding: 10px 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
 }
+
+span.stack-bar {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+span.stack-type {
+  color: #3aaa649e;
+  transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
+}
+
+span.stack-type:hover {
+  color: #3aaa64;
+  transform: scale(1.04);
+}
+
+#project-head {
+  margin: 24px 0;
+  font-size: 2.4rem;
+}
+
+.item.featured > .title > a {
+  transition: all 0.4s ease-in-out;
+}
+.item.featured > .title > a:hover {
+  color: #3aaa64 !important;
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+.btn.btn-cta-secondary {
+  display: flex;
+  align-items: center;
+}
+
+.btn__group {
+  align-items: center;
+}
+.more-link {
+  margin-bottom: 0 !important;
+}
+
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 20px;
@@ -251,6 +303,9 @@ p.stack {
 .latest .featured-image {
   position: relative;
 }
+.latest .featured p {
+  margin-bottom: 20px;
+}
 .latest .featured-image .text {
   background: #3aaa64;
   color: #fff;
@@ -264,7 +319,7 @@ p.stack {
   overflow: hidden;
 }
 .latest .featured-image .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -283,7 +338,7 @@ p.stack {
 }
 .latest .featured-image .ribbon .text:before,
 .latest .featured-image .ribbon .text:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   border-top: 5px solid #276582;
@@ -388,7 +443,7 @@ p.stack {
   color: #ccd1d6;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -442,7 +497,7 @@ p.stack {
   margin-top: 0;
 }
 .education .item .university {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-size: 13px;
   color: #999;
   font-weight: 600;
